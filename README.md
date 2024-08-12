@@ -35,9 +35,9 @@ npm install lehjah
 After installing the package, you can embed the Lehjah accounting view in your web application:
 
 ```javascript
-const LehjahWidget = require('lehjah');
+const Lehjah = require('lehjah');
 
-new LehjahWidget({
+new Lehjah({
     business_id: 'your-business-id',
     public_key: 'your-public-key',
     token: 'your-token',
@@ -85,11 +85,11 @@ When initializing the Lehjah widget, you need to provide a configuration object 
 ## Example
 
 ```html
-<div id="lehjah-accounting"></div>
+<div id="lehjah-accounting" style="height: 100vh;"></div>
 
-<script src="https://unpkg.com/lehjah-widget/index.js"></script>
+<script src="https://unpkg.com/lehjah/index.js"></script>
 <script>
-    new LehjahWidget({
+    new Lehjah({
         business_id: '123456',
         public_key: 'your-public-key',
         token: 'user-session-token',
@@ -99,7 +99,7 @@ When initializing the Lehjah widget, you need to provide a configuration object 
 </script>
 ```
 
-In this example, the Lehjah widget will be embedded within the `div` with the ID `lehjah-accounting`.
+In this example, the Lehjah widget will be embedded within the `div` with the ID `lehjah-accounting`. You can set the height to 100vh so as have a full height display.
 
 ## Contact Us
 
