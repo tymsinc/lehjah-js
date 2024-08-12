@@ -1,6 +1,6 @@
 {
   "name": "lehjah",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lehjah is a no-code embedded accounting platform for financial platforms and vertical SaaS. The lehjah js can be used to embedded the accounting view on web pages.",
   "main": "index.js",
   "scripts": {},
