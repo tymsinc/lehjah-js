@@ -82,6 +82,9 @@ When initializing the Lehjah widget, you need to provide a configuration object 
 - **target_id**: *(required)*  
   The ID of the HTML element where the Lehjah widget will be embedded.
 
+- **variable1**: *(optional, alongside `variable2`, `variable3`, `variable4` and `variable5`)*  
+  The variable1 and the other permitted variable names from 1 to 5 allows you to add up to five (5) custom variables you might need to extend the widget data connection capabilities.
+
 ## Example
 
 ```html
