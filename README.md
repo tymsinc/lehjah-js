@@ -79,6 +79,12 @@ When initializing the Lehjah widget, you need to provide a configuration object 
 - **environment**: *(optional, default: 'production')*  
   Specifies the environment to be used. This can be either `sandbox` or `production`. For access to these environments, please contact us at [developer@lehjah.com](mailto:developer@lehjah.com).
 
+- **mode**: *(optional, default 'full')*
+Specifies the mode in which the widget will display. The default value is `'full'` which shows all the features together. Use `'page'` if you are only interested in a specific page.
+
+- **page**: *(optional, but required if mode = 'page')
+The specific feature to be displayed when the widget loads, this makes it possible for you to distribute the features into different pages on your platform. Available pages are `'overview' | 'transactions' | 'invoices' | 'bills' | 'inventory' | 'restocks' | 'financial_statements' | 'income_statement' | 'balance_sheet' | 'trial_balance' | 'cashflow_statement' | 'manual_journal' | 'general_ledger' | 'chart_of_accounts'`.
+
 - **target_id**: *(required)*  
   The ID of the HTML element where the Lehjah widget will be embedded.
 
