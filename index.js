@@ -27,7 +27,7 @@ class Lehjah{
         }
 
         const iframe = document.createElement('iframe');
-        iframe.src = `${this.baseUrl}/v1/app/${this.publicKey}?business_id=${this.businessId}&token=${this.token}&mode=${this.mode}&page=${this.page}&variable1=${this.variable1}&variable2=${this.variable2}&variable3=${this.variable3}&variable4=${this.variable4}&variable5=${this.variable5}`;
+        iframe.src = `${this.baseUrl}/v1/app/${this.publicKey}?business_id=${this.businessId}&auth_token=${this.token}&mode=${this.mode}&page=${this.page}&variable1=${this.variable1}&variable2=${this.variable2}&variable3=${this.variable3}&variable4=${this.variable4}&variable5=${this.variable5}`;
         iframe.width = '100%';
         iframe.height = '100%';
         iframe.style.border = 'none';
